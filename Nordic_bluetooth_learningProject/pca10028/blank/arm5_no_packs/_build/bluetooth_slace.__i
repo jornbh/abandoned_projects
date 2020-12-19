@@ -1,0 +1,6 @@
+--c99 -c --cpu Cortex-M0 -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ..\..\..\config\esb_low_power_prx_pca10028 -I ..\..\..\config -I ..\..\..\..\..\..\components -I ..\..\..\..\..\..\components\boards -I ..\..\..\..\..\..\components\drivers_nrf\common -I ..\..\..\..\..\..\components\drivers_nrf\delay -I ..\..\..\..\..\..\components\drivers_nrf\hal -I ..\..\..\..\..\..\components\drivers_nrf\nrf_soc_nosd -I ..\..\..\..\..\..\components\drivers_nrf\uart -I ..\..\..\..\..\..\components\libraries\bsp -I ..\..\..\..\..\..\components\libraries\log -I ..\..\..\..\..\..\components\libraries\log\src -I ..\..\..\..\..\..\components\libraries\util -I ..\..\..\..\..\..\components\proprietary_rf\esb -I ..\..\..\..\..\..\components\toolchain -I ..\..\.. -I ..\..\..\..\..\..\external\segger_rtt -I ..\config -I ..\arm5_no_packs
+-I.\RTE\_nrf51422_xxac
+-IC:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-IC:\Keil_v5\ARM\PACK\NordicSemiconductor\nRF_DeviceFamilyPack\8.11.1\Device\Include
+-D__UVISION_VERSION="525" -D_RTE_ -DNRF51 -DNRF51422 -DBOARD_PCA10028 -DBSP_DEFINES_ONLY -DESB_PRESENT -DNRF51
+-o .\_build\bluetooth_slace.o --omf_browse .\_build\bluetooth_slace.crf --depend .\_build\bluetooth_slace.d "Bluetooth_slace.c"

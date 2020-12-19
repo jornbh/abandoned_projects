@@ -1,0 +1,3 @@
+Man kan bruke find_all("div") for å finne alle div-er i en blokk
+
+Når man skal ha en attributt (Som href=/bla/bla) må man bruke ["href"] eller tilsvarende. 
